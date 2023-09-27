@@ -6,9 +6,19 @@
         <Nullable>enable</Nullable>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <Version>0.1.0</Version>
+        <Description>.NET cross platform crypto API</Description>
+        <Authors>oaz</Authors>
+        <PackageTags>crypto;AES;RSA;ECDSA;HMAC;SHA;HKDF;PBKDF2</PackageTags>
         <PackageProjectUrl>https://github.com/Oaz/FluentCrossPlatformCrypto</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Oaz/FluentCrossPlatformCrypto.git</RepositoryUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <Copyright>Copyright © Olivier Azeau</Copyright>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 
 </Project>
